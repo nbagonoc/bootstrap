@@ -35,14 +35,116 @@
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Dropdown item</a></li>
+                <li><a href="#">Dropdown item</a></li>
+                <li><a href="#">Dropdown item</a></li>
+              </ul>
+          </li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     
     </div>
   </nav>
-  
-  <div class="footer">
+
+  <!-- carousel -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- slide 1 -->
+      <div class="item active">
+        <div class="first-slide banner-slider" style="background-image: url('http://localhost/bootstrap/img/banner.jpg'">
+          <div class="vertical-align">
+            <div class="vertical-align-element">
+              <h1 class="text-center text-uppercase color-white">banner text here</h1>
+              <h3 class="text-center text-capitalize color-white weight-lighter">sub banner text here</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- slide 2-->
+      <div class="item">
+        <div class="second-slide banner-slider" style="background-image: url('http://localhost/bootstrap/img/banner.jpg'">
+          <div class="vertical-align">
+              <div class="vertical-align-element">
+                <h1 class="text-center text-uppercase color-white">banner text here</h1>
+                <h3 class="text-center text-capitalize color-white weight-lighter">sub banner text here</h3>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- slide 3-->
+      <div class="item">
+        <div class="third-slide banner-slider" style="background-image: url('http://localhost/bootstrap/img/banner.jpg'">
+          <div class="vertical-align">
+            <div class="vertical-align-element">
+              <h1 class="text-center text-uppercase color-white">banner text here</h1>
+              <h3 class="text-center text-capitalize color-white weight-lighter">sub banner text here</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- arrows -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div><!-- /.carousel -->
+
+  <!-- banner -->
+  <!-- <div class="banner">
+    <div class="vertical-align">
+      <div class="vertical-align-element">
+          <h1 class="text-center text-uppercase color-white">banner text here</h1>
+          <h3 class="text-center text-capitalize color-white weight-lighter">sub banner text here</h3>
+        </div>
+    </div>
+  </div> -->
+
+  <!-- feature headings-->
+  <div class="space-md background-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mobile-space">
+          <div class="border space background-white">
+            <h3 class="text-center text-uppercase">heading text</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam facere animi cum vel cumque rerum harum aliquid fuga ullam maiores? Dicta quidem nihil exercitationem omnis sit earum officia! Aliquid, quidem.</p>
+            <a href="" class="btn btn-custom text-uppercase center-block">text goes here</a>
+          </div>
+        </div>
+        <div class="col-md-4 mobile-space">
+          <div class="border space background-white">
+            <h3 class="text-center text-uppercase">heading text</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam facere animi cum vel cumque rerum harum aliquid fuga ullam maiores? Dicta quidem nihil exercitationem omnis sit earum officia! Aliquid, quidem.</p>
+            <a href="" class="btn btn-custom text-uppercase center-block">text goes here</a>
+          </div>
+        </div>
+        <div class="col-md-4 mobile-space">
+          <div class="border space background-white">
+            <h3 class="text-center text-uppercase">heading text</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam facere animi cum vel cumque rerum harum aliquid fuga ullam maiores? Dicta quidem nihil exercitationem omnis sit earum officia! Aliquid, quidem.</p>
+            <a href="" class="btn btn-custom text-uppercase center-block">text goes here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="footer space-md background-dark">
   </div>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
