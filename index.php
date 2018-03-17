@@ -9,9 +9,11 @@
   <link rel="icon" href="favicon.ico">
   <title>project</title>
   <meta name="description" content="welcome to my website" />
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
-  <link href="css/animate.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/bootstrap-dropdownhover.min.css">
+  <link rel="stylesheet" href="css/fa-svg-with-js.css">
   <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:bold|Roboto" rel="stylesheet">  google font -->
 </head>
 
@@ -95,11 +97,11 @@
     </div>
     <!-- arrows -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="fas fa-chevron-circle-left fa-2x left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
     <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="fas fa-chevron-circle-right fa-2x right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
   </div><!-- /.carousel -->
@@ -142,7 +144,7 @@
       </div>
     </div>
   </div>
-
+	<a href="#top" id="to-top"><i class="fas fa-chevron-circle-up fa-3x"></i></a>
   <!-- footer -->
   <div class="footer space-md background-dark">
   </div>
@@ -150,8 +152,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/viewportchecker.js"></script><!-- viewport checker for triggerAnimation.js -->
-  <script src="js/animationTrigger.js"></script><!-- controls/triggers the animation.css on scroll -->
+  <script src="js/custom.js"></script><!-- controls/triggers the animation.css on scroll -->
   <script src="js/respond.min.js"></script><!-- fix ie 6, 7 and 8 -->
+  <script src="js/fontawesome-all.min.js"></script>
 </body>
 
 </html>
