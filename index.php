@@ -144,9 +144,15 @@
       </div>
     </div>
   </div>
+  <!-- back to top-->
 	<a href="#top" id="to-top"><i class="fas fa-chevron-circle-up fa-3x"></i></a>
   <!-- footer -->
-  <div class="footer space-md background-dark">
+  <div class="footer space-md text-center background-dark">
+    <div class="social">
+      <a href="#" target="_blank"><i class="fab fa-facebook-f fa-2x" data-fa-transform="shrink-5" data-fa-mask="fas fa-circle"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-twitter fa-2x" data-fa-transform="shrink-5" data-fa-mask="fas fa-circle"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram fa-2x" data-fa-transform="shrink-5" data-fa-mask="fas fa-circle"></i></a>
+    </div>
   </div>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

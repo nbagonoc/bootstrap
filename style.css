@@ -227,11 +227,12 @@ body h5{
 
 /*FOOTER//////////////////////////////////////////////////*/
 .footer{
-	height: 50px;
 }
-.footer-menu{
+.footer .social a{
+	color: #666;
 }
-.footer-copyrights{
+.footer .social a:hover{
+	color: #FFF;
 }
 
 /*PAGINATION//////////////////////////////////////////////////*/
