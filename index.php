@@ -120,7 +120,7 @@
   <div class="space-md background-light">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 mobile-space">
+        <div class="col-md-4">
           <div class="border space background-white">
             <h3 class="text-center text-uppercase">heading text</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam facere animi cum vel cumque rerum harum aliquid fuga ullam maiores? Dicta quidem nihil exercitationem omnis sit earum officia! Aliquid, quidem.</p>
@@ -144,8 +144,80 @@
       </div>
     </div>
   </div>
+
+  <!-- content -->
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="border space background-white">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, laboriosam tenetur rerum soluta quae eligendi fugit explicabo doloremque odio vero tempore, quia ipsa quisquam possimus deserunt dignissimos non cum officiis?</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="border space background-white">
+          <ul class="list-troup">
+            <li class="list-group-item">
+              <a href="#">option here</a>
+              <a href="#">option here</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  
+  <!-- content and sidebar-->
+  <div class="space-md">
+    <div class="container">
+      <div class="row">
+        <!-- content -->
+        <div class="content">
+          <div class="col-md-8">
+            <div class="panel paneldefault border">
+              <div class="panel-body">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit tempore quam in ut perferendis necessitatibus iure tempora, commodi quasi, illum vero eos quod nulla. Officiis pariatur nostrum quis recusandae dignissimos!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error soluta id, eveniet odio numquam repellat ipsam molestias. Velit quibusdam molestias in voluptas a architecto quidem, dolorem fugit necessitatibus dolores! Iste.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel in odio laboriosam provident, alias nam modi dicta exercitationem, fugit numquam unde assumenda quisquam ipsam dolorem a doloremque rem vitae odit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ipsum temporibus beatae voluptatibus sit commodi expedita laboriosam tenetur officiis maiores eaque maxime asperiores repellat, dolore fuga dolores harum? Odio, quis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quia beatae eveniet fugiat quis delectus voluptates qui sequi eius facere obcaecati eaque dolore tenetur ex excepturi nam aut, inventore minus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non consectetur ipsa autem similique eius et consequatur voluptates sapiente, dignissimos, excepturi nobis labore fuga modi blanditiis itaque vitae sed? Repudiandae, soluta.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id repudiandae laudantium sunt fugiat, laboriosam odio tenetur neque in perferendis, a autem magni distinctio deleniti veritatis excepturi quod tempora. Harum, rem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero excepturi recusandae sit expedita vel, vero, blanditiis voluptatem illum corporis quasi magni delectus ex quidem doloremque, voluptas voluptatum labore quibusdam? Asperiores.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum incidunt nihil tempora sed facilis cumque magni cum laudantium at sit laboriosam, minima quia quam nostrum similique explicabo mollitia dignissimos. Maiores.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum natus corrupti quas! Soluta molestias id commodi ea voluptate ut reprehenderit sint architecto? Facere, nostrum ipsam? Consequatur, provident labore. Adipisci, odit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, consequatur nam illo maxime nemo magni rerum. Quae corrupti unde placeat modi et, labore tenetur fugiat, commodi, fuga enim quia suscipit!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut tenetur explicabo in dignissimos veritatis velit repudiandae, ducimus modi quia, distinctio aut maxime voluptate nobis? Neque itaque architecto quaerat ducimus autem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quasi obcaecati atque voluptate fugit, culpa dignissimos, voluptas porro, est incidunt enim delectus veniam veritatis! Totam minima fuga qui soluta dolorum?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- sidebar -->
+        <div class="col-md-4 mobile-space">
+          <div class="sidebar">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <a href="#">option</a>
+              </li>
+              <li class="list-group-item">
+                <a href="#">option</a>
+              </li>
+              <li class="list-group-item">
+                <a href="#">option</a>
+              </li>
+              <li class="list-group-item">
+                <a href="#">option</a>
+              </li>
+            </ul> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- back to top-->
 	<a href="#top" id="to-top"><i class="fas fa-chevron-circle-up fa-3x"></i></a>
+  
   <!-- footer -->
   <div class="footer space-sm text-center background-dark">
     <div class="social">

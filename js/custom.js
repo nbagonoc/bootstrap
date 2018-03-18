@@ -47,20 +47,23 @@ $(document).ready(function(){
     });
   }
 
-// When the user scrolls down 20px from the top of the document, show the button
+// scroll to top
 window.onscroll = function() {scrollFunction()};
-
+// When the user scrolls down 100px from the top of the document, show the button
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         document.getElementById("to-top").style.display = "block";
     } else {
         document.getElementById("to-top").style.display = "none";
     }
 }
-//scroll to top
+// on click
 $("a[href='#top']").click(function() {
    $("html, body").animate({ scrollTop: 0 }, "slow");
    return false;
 });
 
 });
+
+// affix
+$(".sidebar").affix({offset: {top: $(".content .panel").outerHeight(true)} });
