@@ -527,6 +527,16 @@ body h5{
 	  color: #222;
   }
 
+/*5 columns col-15//////////////////////////////////////////////////*/
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+}
+
 /*MEDIA QUERIES//////////////////////////////////////////////////*/
 
 /*extra small*/
@@ -576,6 +586,10 @@ body h5{
 	.footer-menu ul{
 		text-align: center;
 	}
+	.col-xs-15 {
+	    width: 20%;
+	    float: left;
+	}
 }
 
 /*small*/
@@ -597,6 +611,10 @@ body h5{
 	.footer-menu ul{
 		text-align: center;
 	}
+	.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
 }
 
 /*medium*/
@@ -618,6 +636,10 @@ body h5{
 	.footer-menu ul{
 		text-align: left;
 	}
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
 }
 
 /*large*/
@@ -639,4 +661,8 @@ body h5{
 	.footer-menu ul{
 		text-align: left;
 	}
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
 }
