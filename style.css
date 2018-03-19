@@ -51,6 +51,9 @@ body h5{
 .color-white{
 	color: #FEFEFE;
 }
+.color-gray{
+	background: #999;
+}
 .color-dark{
 	color: #333;
 }
