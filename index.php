@@ -33,7 +33,7 @@
         <a class="navbar-brand" href="#">Project</a>
       </div>
       
-      <div id="navbar" class="collapse navbar-collapse">
+      <div id="navbar" class="collapse navbar-collapse" data-hover="dropdown" data-animations="fadeIn">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -229,7 +229,8 @@
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/viewportchecker.js"></script><!-- viewport checker for triggerAnimation.js -->
+  <script src="js/jquery.viewportchecker.min.js"></script><!-- viewport checker for triggerAnimation.js -->
+  <script src="js/bootstrap-dropdownhover.min.js"></script><!-- -->
   <script src="js/custom.js"></script><!-- controls/triggers the animation.css on scroll -->
   <script src="js/respond.min.js"></script><!-- fix ie 6, 7 and 8 -->
   <script src="js/fontawesome-all.min.js"></script>
