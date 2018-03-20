@@ -144,36 +144,15 @@
       </div>
     </div>
   </div>
-
-  <!-- content -->
-  <!-- <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <div class="border space background-white">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, laboriosam tenetur rerum soluta quae eligendi fugit explicabo doloremque odio vero tempore, quia ipsa quisquam possimus deserunt dignissimos non cum officiis?</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="border space background-white">
-          <ul class="list-troup">
-            <li class="list-group-item">
-              <a href="#">option here</a>
-              <a href="#">option here</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div> -->
   
   <!-- content and sidebar-->
   <div class="space-md">
     <div class="container">
       <div class="row">
         <!-- content -->
-        <div class="content">
-          <div class="col-md-8">
-            <div class="panel paneldefault border">
+        <div class="col-md-8">
+          <div class="content">
+            <div class="panel panel-default border">
               <div class="panel-body">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit tempore quam in ut perferendis necessitatibus iure tempora, commodi quasi, illum vero eos quod nulla. Officiis pariatur nostrum quis recusandae dignissimos!</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error soluta id, eveniet odio numquam repellat ipsam molestias. Velit quibusdam molestias in voluptas a architecto quidem, dolorem fugit necessitatibus dolores! Iste.</p>
@@ -194,7 +173,7 @@
         </div>
         <!-- sidebar -->
         <div class="col-md-4 mobile-space">
-          <div class="sidebar">
+          <div class="sidebar" data-offset-smart-dynamic>
             <ul class="list-group">
               <li class="list-group-item">
                 <a href="#">option</a>
@@ -229,9 +208,9 @@
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
   <script src="js/jquery.viewportchecker.min.js"></script><!-- viewport checker for triggerAnimation.js -->
   <script src="js/bootstrap-dropdownhover.min.js"></script><!-- -->
-  <script src="js/custom.js"></script><!-- controls/triggers the animation.css on scroll -->
   <script src="js/respond.min.js"></script><!-- fix ie 6, 7 and 8 -->
   <script src="js/fontawesome-all.min.js"></script>
 </body>

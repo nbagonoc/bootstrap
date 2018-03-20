@@ -65,10 +65,18 @@ $(document).ready(function(){
         return false;
     });
 
-    // sidebar for affix
-    $(".sidebar").affix({
+    //affix and element(sidebar)
+    var $attribute = $('[data-offset-smart-dynamic]');
+    $attribute.each(function(){
+      $(this).affix({
         offset: {
-            top: $(".content .panel").outerHeight(true)
+          top: $(this).offset().top,
         }
-    });
+      })
+    })
+    $(window).on("resize", function(){
+      $attribute.each(function(){
+        $(this).data('bs.affix').options.offset.top = $(this).offset().top
+      })
+    })
 });
