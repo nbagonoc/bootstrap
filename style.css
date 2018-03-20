@@ -384,6 +384,24 @@ body h5{
 	border-right: 1px solid #E2E2E2;
 }
 
+/*BORDER RADIUS//////////////////////////////////////////////////*/
+.radius{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/*HR - horizontal line//////////////////////////////////////////////////*/
+.hr-white{
+	border-top: 1px solid #FEFEFE;
+}
+.hr-gray{
+	border-top: 1px solid #E2E2E2;
+}
+.hr-dark{
+	border-top: 1px solid #666;
+}
+
 
 /*SPACING//////////////////////////////////////////////////*/
 /*TOP*/
@@ -575,6 +593,9 @@ body h5{
 	.navbar-toggle .icon-bar{
 		background: #666 !important;
 	}
+	.carousel-control{
+		display: none;
+	}
 	.sidebar.affix{
 		position: static;
 		width: 100%;
@@ -671,9 +692,12 @@ body h5{
 		line-height: 27px;
 	}
 	*/
+	.container {
+		width: 970px;
+	}
 	.sidebar.affix{
 		position: fixed;
-		width: 360px;
+		width: 293px;
 	}
 	.mobile-space{
 		margin-top: 0;

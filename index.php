@@ -121,21 +121,21 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <div class="border space background-white">
+          <div class="border radius space background-white">
             <h3 class="text-center text-uppercase">heading text</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam facere animi cum vel cumque rerum harum aliquid fuga ullam maiores? Dicta quidem nihil exercitationem omnis sit earum officia! Aliquid, quidem.</p>
             <a href="" class="btn btn-custom text-uppercase center-block">text goes here</a>
           </div>
         </div>
         <div class="col-md-4 mobile-space">
-          <div class="border space background-white">
+          <div class="border radius space background-white">
             <h3 class="text-center text-uppercase">heading text</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam facere animi cum vel cumque rerum harum aliquid fuga ullam maiores? Dicta quidem nihil exercitationem omnis sit earum officia! Aliquid, quidem.</p>
             <a href="" class="btn btn-custom text-uppercase center-block">text goes here</a>
           </div>
         </div>
         <div class="col-md-4 mobile-space">
-          <div class="border space background-white">
+          <div class="border radius space background-white">
             <h3 class="text-center text-uppercase">heading text</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam facere animi cum vel cumque rerum harum aliquid fuga ullam maiores? Dicta quidem nihil exercitationem omnis sit earum officia! Aliquid, quidem.</p>
             <a href="" class="btn btn-custom text-uppercase center-block">text goes here</a>
@@ -203,6 +203,12 @@
       <a href="#" target="_blank"><i class="fab fa-facebook-f fa-2x" data-fa-transform="shrink-5" data-fa-mask="fas fa-circle"></i></a>
       <a href="#" target="_blank"><i class="fab fa-twitter fa-2x" data-fa-transform="shrink-5" data-fa-mask="fas fa-circle"></i></a>
       <a href="#" target="_blank"><i class="fab fa-instagram fa-2x" data-fa-transform="shrink-5" data-fa-mask="fas fa-circle"></i></a>
+    </div>
+    <div class="container">
+      <hr class="hr-dark">
+    </div>
+    <div class="copyrights text-center">
+      &#9400; <?php echo date("Y"); ?> Project
     </div>
   </div>
   
