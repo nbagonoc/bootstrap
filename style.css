@@ -226,8 +226,6 @@ body h5{
 }
 
 /*SIDEBAR//////////////////////////////////////////////////*/
-.sidebar{
-}
 .sidebar.affix{
 	top: 80px;
 	position: fixed;
@@ -576,8 +574,6 @@ body h5{
 	}
 	.navbar-toggle .icon-bar{
 		background: #666 !important;
-	}
-	.banner{
 	}
 	.sidebar.affix{
 		position: static;
